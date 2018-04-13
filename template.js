@@ -172,7 +172,7 @@ function plot_matches(matches){
         imcanvas.stroke();
 
         imregioncanvas.lineWidth = "10px";
-        imregioncanvas.fillStyle = RED ;
+        imregioncanvas.fillStyle = color;
         imregioncanvas.strokeStyle = color;
         imregioncanvas.beginPath();
         imregioncanvas.arc(matches[i].keypoint1[0], matches[i].keypoint1[1], 4, 0, 2*Math.PI);
